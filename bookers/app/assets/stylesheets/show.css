@@ -1,0 +1,14 @@
+* {
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+
+main {
+  width:700px;
+  margin:40px;
+}
+
+.edit-show {
+  display:inline-block;
+}

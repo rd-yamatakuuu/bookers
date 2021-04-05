@@ -1,0 +1,45 @@
+* {
+  padding:0px;
+  margin:0px;
+  box-sizing:border-box;
+}
+
+main {
+  width:700px;
+  margin:40px;
+  display:flex;
+}
+
+.name {
+  margin-left:40px;
+}
+
+.name:first-child {
+  margin-top:40px;
+}
+
+.titleframe {
+  width:200px;
+  color:red;
+  margin:10px;
+}
+
+.bodyframe {
+  width:75%;
+  color:red;
+  margin:10px;
+  
+}
+
+.eachbutton {
+  display:flex;
+  justify-content:flex-start;
+}
+
+.tab {
+  margin-left:10px;
+}
+
+.submitbutton {
+  text-align:left;
+}
