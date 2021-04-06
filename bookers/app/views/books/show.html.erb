@@ -1,16 +1,18 @@
 <main>
-  
+
   <div class='edit-show'>
-    <p>Title:</p>
+    <p class='space'><strong>Title:</strong></p>
     <%= @book.title %>
   </div>
-  
+
   <div class='edit-show'>
-    <p>Body:</p>
+    <p class='space'><strong>Body:</strong></p>
     <%= @book.body %>
   </div>
-  
-</main>
 
+</main>
+<div class='edit-new'>
   <%= link_to 'edit', edit_book_path(@book) %>
+  <p class='space2'>|</p>
   <%= link_to 'Back', books_path %>
+</div>

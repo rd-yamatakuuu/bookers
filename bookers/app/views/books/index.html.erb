@@ -5,17 +5,21 @@
   <div class='titleframe'>
     <h4>title</h4>
     <div>
-      <p>aaaaaaaaaa</p>
+      <% @books.each do |book| %>
+        <p><%= book.title %></p>
+      <% end %>
     </div>
   </div>
 
   <div class='bodyframe'>
     <div>body</div>
       <div class='eachbutton'>
-        <p>aaaaaaaaa</p>
-        <p class='tab'>Show</p>
-        <p class='tab'>Edit</p>
-        <p class='tab'>Destroy</p>
+        <% @books.each do |book| %>
+          <p><%= book.body %></p>
+          <p class='tab'>Show</p>
+          <p class='tab'>Edit</p>
+          <p class='tab'>Destroy</p>
+        <% end %>
       </div>
     </div>
   </div>
