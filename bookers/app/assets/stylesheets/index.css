@@ -5,9 +5,8 @@
 }
 
 main {
-  width:700px;
+  width:auto;
   margin:40px;
-  display:flex;
 }
 
 .name {
@@ -18,30 +17,14 @@ main {
   margin-top:40px;
 }
 
-.titleframe {
-  width:200px;
-  color:red;
-  margin:10px;
+table {
+  cellpadding:'10';
 }
 
-.bodyframe {
-  width:500px;
-  color:red;
-  margin:10px;
-
-}
-
-.eachbutton {
-  display:inline-block;
-  flex-direction:row;
-  
-
+.content {
+  margin-right:20px;
 }
 
 .tab {
-  margin-left:10px;
-}
-
-.submitbutton {
-  text-align:left;
+  margin-right:10px;
 }
