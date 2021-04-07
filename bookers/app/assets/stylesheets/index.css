@@ -37,3 +37,12 @@ main {
   margin:30px 60px;
   color:green;
 }
+
+.errorframe {
+  color:red;
+  margin:30px;
+}
+
+ul {
+  list-style:none;
+}
