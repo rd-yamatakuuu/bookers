@@ -32,3 +32,8 @@ main {
 .font {
   font-family: verdana, arial, helvetica, sans-serif;
 }
+
+.notice {
+  margin:30px 60px;
+  color:green;
+}
