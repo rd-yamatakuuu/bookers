@@ -1,35 +1,35 @@
 * {
-  padding:0px;
-  margin:0px;
-  box-sizing:border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 .main-show {
-  width:700px;
-  margin:40px;
-  display:flex;
-  flex-direction:column;
+  width: 700px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .edit-show {
-  margin-bottom:20px;
-  display:flex;
+  margin-bottom: 20px;
+  display: flex;
 }
 
 .edit-show:last-child {
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
 
 .space {
-  margin-right:20px;
+  margin-right: 20px;
 }
 
 .space2 {
-  margin:0 5px;
+  margin: 0 5px;
 }
 
 .edit-new {
-  margin-left:20px;
-  display:flex;
-  justify-content:start;
+  margin-left: 20px;
+  display: flex;
+  justify-content: start;
 }
